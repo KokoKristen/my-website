@@ -1,0 +1,228 @@
+body {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	color: white;
+	font-style: normal;
+	overflow-x: hidden;
+}
+
+.kristen {
+	font-size: 30px;
+	font-weight: 300;
+	line-height: .9em;
+	text-align: right;
+	position: relative;
+}
+
+.reiners {
+	font-size: 30px;
+	text-align: right;
+}
+
+nav {
+	overflow: auto;
+	font-size: 30px;
+	text-align: right;
+	top: 10%;
+	color: white;
+}
+
+.portfolio_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;
+}
+
+ul {
+	margin: 0;
+}
+
+
+li {
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+.homenav a {
+	background-color: #B1C7DD;
+	color: white;
+	border-radius: 25px 0 0 25px;
+	padding-right: 50px;
+}
+
+.portfolionav a {
+	background-color: #B1C7DD;
+	color: white;
+	border-radius: 25px 0 0 25px;
+	padding-right: 50px;
+}
+
+.contactnav a {
+	background-color: #B1C7DD;
+	color: white;
+	border-radius: 25px 0 0 25px;
+	padding-right: 50px;
+}
+
+
+
+.portfolio_title {
+	font-size: 75px;
+	font-weight: 500;
+	text-align: left;
+	background-color: #B1C7DD;
+	width: 30%;
+	border-radius: 0 50px 50px 0;
+	padding-left: 40px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.invite {
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+}
+
+	.inv_container {
+	width: 500px;
+	height: 300px;
+	position: relative;
+	}
+
+	.inv_container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+	.inv_container img:hover {
+	opacity: 0;
+}
+
+	.inv_text {
+	width: 100%;
+	height: 100%;
+	color: white;
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+}
+
+.read_container{
+	width: 500px;
+	height: 300px;
+	position: relative;
+}
+
+.read_container img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+.read_container img:hover {
+	opacity: 0;
+}
+
+
+.reading_poster {
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+}
+
+.coffee_poster {
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+}
+	.coffe_container{
+	width: 500px;
+	height: 300px;
+	position: relative;
+}
+
+	.coffe_container img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+	.coffe_container img:hover {
+	opacity: 0;
+}
+	.coffee_text{
+	width: 100%;
+	height: 100%;
+	color: white;
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+	}
+
+.ind_study_image {
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+}
+.ind_container{
+	width: 500px;
+	height: 300px;
+	position: relative;
+}
+
+.ind_container img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+	.ind_container img:hover {
+	opacity: 0;
+}
+	.ind_text{
+	width: 100%;
+	height: 100%;
+	color: white;
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+	}
+
+.tea_image {
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+}
+
+.lyric_image {
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+}
+
+
+
+
+
+.kristen_end {
+	text-align: center;
+	font-weight: 400;
+	background-color: #B1C7DD;
+}

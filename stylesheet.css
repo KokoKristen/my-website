@@ -1,0 +1,115 @@
+body{
+	font-family: "Plus Jakarta Sans", sans-serif;
+	color:white;
+	font-style: normal;
+	overflow-x: hidden; 
+}
+
+
+.top_grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 200px;
+	gap: 10px;
+}
+
+.top_grid img{
+	grid-row: 1/4;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.name_grid{
+	grid-column: 2/3;
+}
+
+.intro_grid{
+	grid-column: 2/3;
+}
+
+
+nav{
+	overflow: auto;
+	font-size: 30px;
+	text-align: right;
+	top: 10%;
+	color: white;
+}
+ul{
+	margin:0;
+}
+
+li{
+	list-style-type: none;
+	padding-top: 15px;
+}
+.homenav a{
+	background-color:#B1C7DD;
+	color: white;
+	border-radius: 25px 0 0 25px;
+	padding-right: 50px;
+}
+.portfolionav a{
+	background-color:#B1C7DD;
+	color: white;
+	border-radius: 25px 0 0 25px;
+	padding-right: 50px;
+}
+.contactnav a{
+	background-color:#B1C7DD;
+	color: white;
+	border-radius: 25px 0 0 25px;
+	padding-right: 50px;
+}
+
+h2{
+	font-size: 35px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.kristen_image{
+	border-radius: 25px 25px 25px 25px;
+}
+.kristen{
+	font-size: 75px;
+	font-weight: 600;
+	background-color:#B1C7DD;
+	border-radius: 50px 0 0 50px;
+	padding-left: 30px;
+	line-height: .9em;
+	position: relative;
+	}
+
+.reiners{
+	font-size: 75px;
+	margin-left: 60px;
+}
+.Bottom_grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.intro_p{
+	width:400px;
+}
+
+.back_p{
+	width:400px;
+	border: 1px solid white;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+.interests_p{
+	width:400px;
+	border: 1px solid white;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+.kristen_end{
+	text-align:center;
+	font-weight:400;
+	background-color: #B1C7DD;
+}
